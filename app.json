@@ -1,7 +1,7 @@
 {
-    "name": "REPLY BOT",
-    "description": "🥲💔",
-    "repository": "https://github.com/EZ-Tee/Tg-reply",
+    "name": "Media_BG-Remover",
+    "description": "A photo background remover telegram bot with pyrogram framework.",
+    "repository": "https://github.com/Rexinazor/Media_BG-Remover",
     "keywords": ["removebg api", "background remover","telegram bot"],
     "env": {
         "BOT_TOKEN": {
@@ -13,6 +13,10 @@
         "API_HASH": {
             "description": "Your API_HASH from https://my.telegram.org/apps"
         },
-        
+        "REMOVEBG_API": {
+            "description": "Your remove bg api from remove.bg/api"
+        }
+    },
     "buildpacks": [{"url": "heroku/python"}]
 }
+Footer
