@@ -12,10 +12,7 @@
         },
         "API_HASH": {
             "description": "Your API_HASH from https://my.telegram.org/apps"
-        },
-        "REMOVEBG_API": {
-            "description": "Your remove bg api from remove.bg/api"
-        }
+         }
     },
     "buildpacks": [{"url": "heroku/python"}]
 }
